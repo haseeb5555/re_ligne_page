@@ -6,7 +6,7 @@ import Logo from './Logo'
 const Navbar = () => {
 
   return (
-   <nav className='w-full fixed top-0 flex justify-between items-center px-20 py-8 border-b-2 border-slate-200'>
+   <nav className='w-full fixed top-0 z-50 flex justify-between items-center px-20 py-8 border-b-2 border-slate-200 bg-white'>
        <ul className='flex justify-center items-center gap-2'>
           {leftSideNavLinks.map((link)=>(
             <Link href={link} className='text-sm text-center' >
